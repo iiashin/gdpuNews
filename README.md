@@ -1,8 +1,18 @@
-# vuenews
-仿校园新闻做的一个校园新闻系统 vue+elementUi+jdbc+servlet
-后台代码需运行tomcat  java文件夹下
-## Project setup
+# gupuNews
+仿校园新闻做的一个校园新闻系统 vue+elementUi+jdbc+servlet   
+
+[模仿界面](https://news.gdpu.edu.cn/)
+
+1. gdpuNews 后台代码，需用idea运行，配置tomcat servlet+jdbc
+2. vuenews  前端代码 vue+vuex+elementUi,以下解释前端代码运行
+
+>想法是vue-cli开启一个端口，tomcat开启一个，通过跨域请求信息，存储在数据库中
+
+## vuenews
+
+### Project setup
 ```
+cd vuenews
 npm install
 ```
 
@@ -75,3 +85,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 #### 项目截图
+![登录界面](https://github.com/iiashin/gdpuNews/blob/main/picture/login.png)
+![用户主界面](https://github.com/iiashin/gdpuNews/blob/main/picture/home.png)
+![详细界面](https://github.com/iiashin/gdpuNews/blob/main/picture/detail.png)
+![管理员界面1](https://github.com/iiashin/gdpuNews/blob/main/picture/admin1.png)
+![管理员界面2](https://github.com/iiashin/gdpuNews/blob/main/picture/admin.png)
