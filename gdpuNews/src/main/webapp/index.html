@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li><a href="page.html?a=1" >参数1</a></li>
+        <li><a href="page.html?a=2" >参数2</a></li>
+        <li><a href="page.html?a=3" >参数3</a></li>
+        <li><a href="page.html?a=4" >参数4</a></li>
+        <li><a href="page.html?a=5" >参数5</a></li>
+        <li><a href="page.html?a=6" >参数6</a></li>
+    </ul>
+    <!--<button onclick="btn()">点击</button>-->
+</body>
+<script type="text/javascript">
+    // window.onload=function () {
+    //     liText();
+    // }
+    //
+    //     //封装ajax
+    //     function ajax(url) {
+    //         //定义最终返回值
+    //         var result;
+    //         //发送异步请求
+    //         //1.创建ajax引擎对象----所有操作都是由ajax引擎完成
+    //         var xmlHttp = new XMLHttpRequest();
+    //         //2.为引擎对象绑定监听事件
+    //         xmlHttp.onreadystatechange = function() {
+    //             //当状态变化时处理的事情
+    //             if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+    //                 //5.接收响应信息
+    //                 //JSON.parse:当我们返回json数据时xmlHttp.responseText会把它变成字符串，因此 JSON.parse重新转成json
+    //                 result= JSON.parse(xmlHttp.responseText)
+    //             }
+    //         }
+    //
+    //         //3.绑定服务器地址
+    //         //第一个参数：请求方式GET/POST
+    //         //第二个参数：后台服务器地址
+    //         //第三个参数：是否是异步 true--异步   false--同步
+    //         xmlHttp.open("GET", url, false);
+    //         //4.发送请求
+    //         xmlHttp.send();
+    //
+    //         return result;
+    //     }
+    //
+    //     //给li加文本
+    //     function liText() {
+    //         const li1=document.getElementsByTagName("li");
+    //         const result=ajax('typeServlet');
+    //         console.log(result)
+    //         for(let i=0;i<li1.length;i++){
+    //             li1[i].innerHTML=result[i].typeName;
+    //         }
+    //     }
+    //
+    //     //点击事件
+    //     function btn(){
+    //         const result=ajax("newsServlet");
+    //         console.log(result)
+    //     }
+
+</script>
+</html>
